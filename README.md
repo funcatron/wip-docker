@@ -8,7 +8,7 @@ debug their code in their IDE.
 In order to do that, there are two pieces required:
 
 * A "shim" in the code that will connect to the Funcatron dev image
-* A Funcatron Docker image that contains Funcatron logic
+* A Funcatron  Docker image that contains Funcatron logic
 
 This Docker image provides the latter. It's a basic, stripped down
 Funcatron Frontend/Tron/Runner.
