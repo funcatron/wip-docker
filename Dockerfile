@@ -9,7 +9,7 @@ RUN \
     chmod +x lein && \
     mv lein /usr/local/bin && \
     cd tron && \
-    git checkout stable && \
+    git checkout WIP && \
     export LEIN_ROOT=ok && \
     lein uberjar && \
     cp target/uberjar/tron-*-standalone.jar /tron.jar && \

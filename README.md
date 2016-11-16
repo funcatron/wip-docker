@@ -1,17 +1,9 @@
-# Dev Docker Image
+# WIP Docker Image
 
-Making [Funcatron](http://funcatron.org) simple and productive
-for developers is key. This means a developer must be able to
-write code in their IDE and field Funcatron-routed calls and
-debug their code in their IDE.
+A Docker image pulled off the WIP branch of tron.
 
-In order to do that, there are two pieces required:
-
-* A "shim" in the code that will connect to the Funcatron dev image
-* A Funcatron  Docker image that contains Funcatron logic
-
-This Docker image provides the latter. It's a basic, stripped down
-Funcatron Frontend/Tron/Runner.
+Why? 'cause we need to have reasonably rapid Tron updates that
+can be deployed to Mesos during development cycles.
 
 ## Contributing
 
