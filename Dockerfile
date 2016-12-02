@@ -17,6 +17,6 @@ RUN \
     rm -rf app && \
     rm -rf ~/.m2
 
-EXPOSE 3000 54657
+EXPOSE 3000 4000 54657
 
 ENTRYPOINT ["/usr/bin/java", "-jar", "/tron.jar"]
